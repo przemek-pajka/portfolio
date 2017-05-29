@@ -459,10 +459,10 @@ section.contact .modal {
 }
 }
 @media screen and (max-width: 767px) {
-    section.about .technology-container .technology-container__item: not(:last-of-type) {
+    section.about .technology-container .technology-container__item:not(:last-of-type) {
     padding-bottom: 50px;
-}
-}.intro {
+}}
+.intro {
     background: #2A3A3F;
     background-attachment: fixed;
     background-repeat: no-repeat;
