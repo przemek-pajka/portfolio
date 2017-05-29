@@ -429,8 +429,8 @@ section.contact .modal {
     opacity: 1;
     -webkit-transform: translate3d(0%,  0%,  0);
     transform: translate3d(0%,  0%,  0);
-}
-}@-webkit-keyframes rightmove {
+}}
+@-webkit-keyframes rightmove {
     0% {
     opacity: 0;
     -webkit-transform: translate3d(-107%,  0%,  0);
@@ -440,8 +440,8 @@ section.contact .modal {
     opacity: 1;
     -webkit-transform: translate3d(0%,  0%,  0);
     transform: translate3d(0%,  0%,  0);
-}
-}@keyframes rightmove {
+}}
+@keyframes rightmove {
     0% {
     opacity: 0;
     -webkit-transform: translate3d(-107%,  0%,  0);
@@ -451,20 +451,16 @@ section.contact .modal {
     opacity: 1;
     -webkit-transform: translate3d(0%,  0%,  0);
     transform: translate3d(0%,  0%,  0);
-}
-}
+}}
+
 @media screen and (max-width: 767px) {
     section.about .about-me-box h3 {
-    padding: 30px 0px 60px;
-}
-}
+    padding: 30px 0px 60px;}}
 
+@media screen and (max-width: 767px) {
+    .technology-container__item:not(:last-of-type) {
+    padding-bottom: 50px;}}
 
-@media screen and (max-width: 767px {
-.technology-container__item:not(:last-of-type) {
-    padding-bottom: 50px;
-}
-}
 .intro {
     background: #2A3A3F;
     background-attachment: fixed;
