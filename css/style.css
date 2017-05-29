@@ -548,7 +548,8 @@ section.contact .modal {
 .about-me-box .col-md-5 {
     max-height: 391px;
 }
-}@media screen and (max-width: 765px) {
+}
+@media screen and (max-width: 765px) {
     .intro {
     background-position: center center !important;
     padding-bottom: 100px;
