@@ -130,7 +130,9 @@ img.ico-p {
     top: -128px;
 }
 .but-details {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #FDCD3B;
     border-radius: 50px;
     background: transparent;
@@ -138,7 +140,6 @@ img.ico-p {
     position: relative;
     height: 50px;
     color: #fff;
-    padding: 8px 20px 10px;
     font-size: 20px;
     text-decoration: none;
     width: 179px;
